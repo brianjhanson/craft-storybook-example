@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: en-US
+name: 'Storybook Example'
+primary: true
+siteGroup: 04a80951-3484-4878-817a-b86a5714efdc # Storybook Example
+sortOrder: 1
