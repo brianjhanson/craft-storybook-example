@@ -5,6 +5,7 @@
     "vlucas/phpdotenv": "^5.4.0"
   },
   "require-dev": {
+    "phpstan/phpstan": "^1.8",
     "yiisoft/yii2-shell": "^2.0.3"
   },
   "autoload": {
