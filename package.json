@@ -10,7 +10,9 @@
     "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
     "format": "prettier --write 'src/**/*.{css,scss,js,twig}'",
     "snyk-protect": "snyk protect",
-    "prepare": "npm run snyk-protect"
+    "prepare": "npm run snyk-protect",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "devDependencies": {
     "@babel/core": "^7.7.2",
@@ -23,6 +25,12 @@
     "@babel/polyfill": "^7.7.0",
     "@babel/preset-env": "^7.7.1",
     "@babel/runtime": "^7.7.2",
+    "@storybook/addon-actions": "^6.5.11",
+    "@storybook/addon-essentials": "^6.5.11",
+    "@storybook/addon-links": "^6.5.11",
+    "@storybook/builder-webpack4": "^6.5.11",
+    "@storybook/manager-webpack4": "^6.5.11",
+    "@storybook/server": "^6.5.11",
     "babel-loader": "^8.0.6",
     "caniuse-lite": "^1.0.30001008",
     "copy": "^0.3.2",
