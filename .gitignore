@@ -36,7 +36,6 @@
 
 # For demo infrastucture only
 !seed.sql
-!/web/assets
 !/web/css
 !/web/images
 !/web/js
