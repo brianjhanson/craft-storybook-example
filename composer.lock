@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b7952872c3a6065926615b0ecda4cd6d",
+    "content-hash": "dade271e6c7a2501d4158327bc7568e9",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -149,6 +149,49 @@
                 "source": "https://github.com/aws/aws-sdk-php/tree/3.235.7"
             },
             "time": "2022-09-13T18:19:11+00:00"
+        },
+        {
+            "name": "brianjhanson/craft-storybook",
+            "version": "1.0.0",
+            "dist": {
+                "type": "path",
+                "url": "./plugins/craft-storybook",
+                "reference": "6e25fc55e060e79f7c15799d656332f9dbc1e27e"
+            },
+            "require": {
+                "craftcms/cms": "^4.0"
+            },
+            "require-dev": {
+                "craftcms/cms": "^4.0",
+                "vlucas/phpdotenv": "^3.0"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Storybook",
+                "handle": "storybook",
+                "developer": "Brian Hanson",
+                "developerUrl": "https://brianhanson.net/",
+                "documentationUrl": "",
+                "changelogUrl": "",
+                "class": "brianjhanson\\storybook\\Storybook"
+            },
+            "autoload": {
+                "psr-4": {
+                    "brianjhanson\\storybook\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "brianhanson",
+                    "email": "brian@brianhanson.net"
+                }
+            ],
+            "transport-options": {
+                "relative": true
+            }
         },
         {
             "name": "bugsnag/bugsnag",

@@ -1,9 +1,11 @@
 {# @var craft \craft\web\twig\variables\CraftVariable #}
 
-{% set richText = theBlock.richText %}
-{% set topBorder = theBlock.topBorder ? "topBorder" : "" %}
-{% set layout = theBlock.layout %}
-{% set narrowWidth = theBlock.narrowWidth ? "narrowWidth" : "" %}
+{% set theBlock = theBlock ?? craft.matrixBlocks.type('richText').one() %}
+{% set richText = richText ?? theBlock.richText %}
+{% set topBorder = topBorder ?? theBlock.topBorder ? "topBorder" : "" %}
+{% set layout = layout ?? theBlock.layout %}
+{% set narrowWidth = narrowWidth ?? theBlock.narrowWidth ? "narrowWidth" : "" %}
+{% set isFirst = isFirst ?? false %}
 
 {% if richText %}
 

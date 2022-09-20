@@ -70,6 +70,7 @@ if (mix.inProduction()) {
         .sourceMaps(true, 'source-map')
         .browserSync({
             proxy: new URL(process.env.DEFAULT_SITE_URL).hostname,
+            cors: true,
             port: 3000,
             files: [
                 './web/assets/dist/css/{*,**/*}.css',

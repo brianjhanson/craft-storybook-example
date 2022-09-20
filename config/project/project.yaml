@@ -1,4 +1,4 @@
-dateModified: 1653912405
+dateModified: 1663106451
 email:
   fromEmail: support@craftcms.com
   fromName: 'Europa Museum'
@@ -332,6 +332,12 @@ plugins:
       submitSitemaps: false
       truncateDescriptionTags: '1'
       truncateTitleTags: '1'
+  storybook:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+    settings:
+      storiesDirectory: '@root/src/stories'
   twigpack:
     edition: standard
     enabled: true
