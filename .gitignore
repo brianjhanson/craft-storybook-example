@@ -46,3 +46,4 @@
 !/web/browserconfig.xml
 
 /submodules
+/stories/*

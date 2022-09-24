@@ -72,6 +72,7 @@ if (mix.inProduction()) {
             proxy: new URL(process.env.DEFAULT_SITE_URL).hostname,
             cors: true,
             port: 3000,
+            open: false,
             files: [
                 './web/assets/dist/css/{*,**/*}.css',
                 './web/assets/dist/js/{*,**/*}.js',
