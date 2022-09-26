@@ -9,7 +9,7 @@ Before you try to run things, make sure you have all the initial boxes checked.
 1. Run `npm install`
 2. run `composer install`
 
-You'll also need some kind of local PHP environment, I recommend [DDEV](https://ddev.com). If you have that, you can just run `ddev start` to get things running. Be sure to import the seed database as well with `ddev import-db -f ./seed.sql`. 
+You'll also need some kind of local PHP environment, I recommend [DDEV](https://ddev.com). If you have that, you can just run `ddev start` to get things running. Be sure to import the seed database as well with `ddev import-db -f ./seed.sql`. After seeding the database, add your user with `ddev craft users/create --admin`. 
 
 ## Storybook
 
