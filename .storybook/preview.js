@@ -1,5 +1,5 @@
 export const parameters = {
   server: {
-    url: 'https://europa-museum.ddev.site/storybook/preview',
+    url: 'https://craft-storybook.ddev.site/storybook/preview',
   },
 };

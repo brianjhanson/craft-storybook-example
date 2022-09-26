@@ -9279,8 +9279,8 @@ function bindAll(self, toBind) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/brianhanson/Development/europa-museum/src/js/site.js */"./src/js/site.js");
-module.exports = __webpack_require__(/*! /Users/brianhanson/Development/europa-museum/src/css/site.scss */"./src/css/site.scss");
+__webpack_require__(/*! /Users/brianhanson/Development/craft-storybook-example/src/js/site.js */"./src/js/site.js");
+module.exports = __webpack_require__(/*! /Users/brianhanson/Development/craft-storybook-example/src/css/site.scss */"./src/css/site.scss");
 
 
 /***/ })
