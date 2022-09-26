@@ -6,7 +6,7 @@
     }
   },
   "args": {
-    "asset": "{@asset:702}",
+    "asset": "{%asset:702}",
     "alt": "This is some alt text"
   },
   "argTypes": {},

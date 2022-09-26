@@ -6,7 +6,7 @@
     }
   },
   "args": {
-    "featuredEntry": "{%entry}",
+    "featuredEntry": "{%entry:95}",
     "textColor": "#000",
     "title": "Featured entry title",
     "isFirst": false
