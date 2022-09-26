@@ -1,4 +1,4 @@
-name: europa-museum
+name: craft-storybook
 type: php
 docroot: web
 php_version: "8.1"

@@ -20,7 +20,7 @@
         "docs": "https://github.com/craftcms/demo-europa-museum"
     },
     "require": {
-        "brianjhanson/craft-storybook": "^1.0",
+        "brianjhanson/craft-storybook": "dev-main",
         "craftcms/aws-s3": "^2.0.0",
         "craftcms/cms": "^4.0.0",
         "craftcms/redactor": "^3.0.0",
@@ -42,6 +42,10 @@
         }
     },
     "repositories": {
+        "storybook": {
+            "type": "vcs",
+            "url": "https://github.com/brianjhanson/craft-storybook.git"
+        },
         "local": {
             "type": "path",
             "url": "./plugins/*",
