@@ -1,0 +1,21 @@
+{
+  "title": "Components/Featured Entry",
+  "parameters": {
+    "server": {
+      "id": "_/components/blocks/featuredEntry"
+    }
+  },
+  "args": {
+    "featuredEntry": "{%entry}",
+    "textColor": "#000",
+    "title": "Featured entry title",
+    "isFirst": false
+  },
+  "argTypes": {},
+  "stories": [
+    {
+      "name": "Default",
+      "args": {}
+    }
+  ]
+}

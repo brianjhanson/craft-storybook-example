@@ -1,0 +1,19 @@
+{
+  "title": "Components/Picture",
+  "parameters": {
+    "server": {
+      "id": "_/components/picture"
+    }
+  },
+  "args": {
+    "asset": "{@asset:702}",
+    "alt": "This is some alt text"
+  },
+  "argTypes": {},
+  "stories": [
+    {
+      "name": "Default",
+      "args": {}
+    }
+  ]
+}
